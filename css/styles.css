@@ -1,0 +1,158 @@
+/*GLOBAL STYLES START*/
+header{
+	padding:10px;
+	margin-bottom:0px;
+	text-align: center;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:1em;
+	background-image: url(H:/Documents/CTEC3905/CTEC3905_Assignment_2/images/landscape298.jpg);
+	background-size:100% 100%;
+	color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+main{
+	padding: 0;
+	margin:0;
+}
+/*dropdown menu start*/
+.dropbtn {
+    background-color: #B22222;
+    color: white;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:16px;
+	padding:15px;
+	border-radius: 20px;
+    cursor: pointer;
+	position: fixed;
+	right: 5px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+.dropdown {
+    float: right;
+    position: relative;
+    display: inline-block;
+    
+}
+
+.dropdown-content {
+	margin-top: 60px;
+    display: none;
+    background-color: #B8860B;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	position: fixed;
+	right: 5px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+/*dropdown list end*/
+
+section { 
+border-style: inline-block;
+border: solid;
+padding-bottom: 1000px;
+margin-bottom: 100px;
+}
+
+/*GLOBAL STYLES END*/
+
+/*MEDIUM STYLES START*/
+@media screen and (min-width: 500px) {
+	/*FIRST BREAKPOINT (MEDIUM SIZE) */
+	header{
+	padding:40px;
+	margin-bottom:0px;
+	text-align: center;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:1.5em;
+	color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+	body {
+  margin:0;
+  padding:0;
+  background: #32DDD8;
+}
+.dropbtn {
+    background-color: #B22222;
+    color: white;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:17px;
+	padding:15px;
+	border-radius: 30px;
+    cursor: pointer;
+	position: fixed;
+	right: 5px;
+}
+section { 
+border-style: inline-block;
+border: solid;
+padding-bottom: 1000px;
+margin-left: 100px;
+margin-right: 100px;
+margin-bottom: 100px;
+}
+section{
+	font-size: 20px;
+	color: white;
+}
+/*MEDIUM STYLES END*/
+
+/*LARGE STYLES START*/
+
+@media screen and (min-width: 1000px) {
+	/*FIRST BREAKPOINT (MEDIUM SIZE) */
+		header{
+	padding:80px;
+	margin-bottom:0px;
+	text-align: center;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:2em;
+	color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+	body {
+  margin:0;
+  padding:0;
+  background: #910004;
+}
+section { 
+border-style: inline-block;
+border: solid;
+padding-bottom: 1000px;
+margin-left: 200px;
+margin-right: 200px;
+}
+section{
+	font-size: 24px;
+	color: white;
+}
+}
+/*LARGE STYLES END*/
+
+
+
+
+
+
+
+
+
+
