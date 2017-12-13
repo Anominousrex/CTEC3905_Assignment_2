@@ -5,15 +5,24 @@ header{
 	text-align: center;
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size:1em;
-	background-image: url(/CTEC3905_Assignment_2/images/landscape298.jpg);
+	background-image: url(../images/landscape298.jpg);
 	background-size:100% 100%;
 	color: white;
     text-shadow: 2px 2px 4px #000000;
+}
+	body {
+  margin:0;
+  padding:0;
+  background: #211f1e;
 }
 
 main{
 	padding: 0;
 	margin:0;
+}
+section{
+	font-size: 20px;
+	color: white;
 }
 /*dropdown menu start*/
 .dropbtn {
@@ -88,7 +97,7 @@ margin-bottom: 100px;
 	body {
   margin:0;
   padding:0;
-  background: #32DDD8;
+  background: #211f1e;
 }
 .dropbtn {
     background-color: #B22222;
@@ -131,7 +140,7 @@ section{
 	body {
   margin:0;
   padding:0;
-  background: #910004;
+  background: #211f1e;
 }
 section { 
 border-style: inline-block;
