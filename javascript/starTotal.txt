@@ -1,0 +1,10 @@
+const starTotal = 5;
+ 
+for(const score1 in score) {  
+  // 2
+  const starPercentage = (score[score1] / starTotal) * 100;
+  // 3
+  const starPercentageRounded = `${(Math.round(starPercentage / 10) * 10)}%`;
+  // 4
+  document.querySelector(`.${score1} .stars-inner`).style.width = starPercentageRounded; 
+}
