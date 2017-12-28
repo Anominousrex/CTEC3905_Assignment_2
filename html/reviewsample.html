@@ -11,13 +11,11 @@
 <h1>Rex's Reviews</h1>
 <!--dropdown menu start-->
 <div class="dropdown">
-<button onclick="myFunction()" class="dropbtn">Menu</button>
+<button onclick="menu()" class="dropbtn">Menu</button>
   <div id="Dropdown" class="dropdown-content">
     <a href="index.html">Home</a>
 	<a href="#recent">Recent Reviews</a>
-	<a href="#highest">Highest scored</a>
-	<a href="#genre">Refine by Genre</a>
-	<a href="reviewsample.html">sample</a>
+	<a href="reviewsample.html">Random Review</a>
   </div>
 </div>
 <script src="../javascript/dropdown.js">
@@ -30,6 +28,7 @@
   <img src="../images/iris-on-a-rainy-day.jpg" alt="Iris on a rainy day">
   <h2>Iris on a rainy day</h2>
   <p>Synopsis: The story is centered around a cute android who initially had a happy life with her master who dearly loved her. But she was then struck by a series of misfortunes and ended up in a robot-equivalent of a concentration camp. Through experiencing and witnessing the sufferings towards herself as well as the people/robots around her, she eventually gained a better appreciation of life.</p>
+  <a href=https://www.baka-tsuki.org/project/index.php?title=Iris_on_Rainy_Days>Sourced from baka-tsuki</a>
   
   <table>
   <tbody>
@@ -39,27 +38,28 @@
     </tr>
   </tbody>
 </table>
+<p>The book was a entertaining story with a unique perception of how AI and humans may interact through a nice science fiction story.</p>
   </section>
 <div id="respond">
-  <h3> </br>Leave a Comment</h3>
+    <h3 class=subtitle>Comments</h3>
+  <p id="post"></p>
+  <script src="../javascript/comments.js"></script> 
+<script src="../javascript/commentget.js"></script> 
+  <h3 class=subtitle> </br>Leave a Comment</h3>
 
-  <form action="post_comment.php" method="post" id="commentform">
+  <form action="#null" method="post" id="commentform">
 
-    <label for="comment_author" class="required"> </br> Your name</label>
+    <label for="comment_author" class="required"> </br> Name</label>
     <input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">
 
-    <label for="email" class="required"> </br> Your email;</label>
-    <input type="email" name="email" id="email" value="" tabindex="2" required="required">
-
-    <label for="comment" class="required"> </br> Your message </br></label>
-    <textarea name="comment" id="comment" rows="10" tabindex="4"  required="required"></textarea>
+    <label for="comment" class="required"> </br> Message </br></label>
+    <textarea name="comment" id="comment" rows="10" tabindex="2"  required="required"></textarea>
 
 	
     <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
-    <input name="submit" type="submit" value="Submit comment" />
+    <input name="submit" type="submit"  value="Submit comment" />
 
-  </form>
-
+</form>
 </div>
 </section>
 </main>

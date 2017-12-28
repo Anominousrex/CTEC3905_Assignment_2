@@ -1,4 +1,4 @@
-function myFunction() {
+function menu() {
     document.getElementById("Dropdown").classList.toggle("show");
 }
 
@@ -14,4 +14,4 @@ document.addEventListener("click", function(event) {
       }
     }
   }
-})
+});
