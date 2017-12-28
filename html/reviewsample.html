@@ -26,34 +26,42 @@
 </header>
 <main>
 <section>
-  <h1>Welcome to Rex's reviews</h1>
-  <p>This Website is used to deliver my personal reviews and reccomendations of Books and Novels.</p>
   <section class="review">
   <img src="../images/iris-on-a-rainy-day.jpg" alt="Iris on a rainy day">
   <h2>Iris on a rainy day</h2>
   <p>Synopsis: The story is centered around a cute android who initially had a happy life with her master who dearly loved her. But she was then struck by a series of misfortunes and ended up in a robot-equivalent of a concentration camp. Through experiencing and witnessing the sufferings towards herself as well as the people/robots around her, she eventually gained a better appreciation of life.</p>
   
   <table>
- <thead>
-    <tr>
-      <th>Aspect</th>
-      <th>Score</th>
-    </tr>
-  </thead>
   <tbody>
     <tr class="score1">
       <td>Overall score</td>
-      <td>
-        <div class="stars-outer">
-          <div class="stars-inner"></div>
-        </div>
-      </td>
+      <td>7.5 out of 10</td>
     </tr>
   </tbody>
 </table>
   
   </section>
+<div id="respond">
+  <h3> </br>Leave a Comment</h3>
 
+  <form action="post_comment.php" method="post" id="commentform">
+
+    <label for="comment_author" class="required"> </br> Your name</label>
+    <input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">
+
+    <label for="email" class="required"> </br> Your email;</label>
+    <input type="email" name="email" id="email" value="" tabindex="2" required="required">
+
+    <label for="comment" class="required"> </br> Your message </br></label>
+    <textarea name="comment" id="comment" rows="10" tabindex="4"  required="required"></textarea>
+
+	
+    <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
+    <input name="submit" type="submit" value="Submit comment" />
+
+  </form>
+
+</div>
 </section>
 </main>
 </body>
