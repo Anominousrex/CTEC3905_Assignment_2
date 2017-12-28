@@ -33,7 +33,7 @@ section {
 	margin-right: 0;
     border-style: inline-block;
     border: solid;
-    padding-bottom: 1000px;
+    padding-bottom: 10px;
     margin-bottom: 100px;
 }
 section {
@@ -45,11 +45,23 @@ p{
 }
 h3{
 	padding-left: 30px;
+	color: white;
 }
+.display {
+	margin-left:10px;
+	margin-top: 20px;
+	float: left;
+	color: white;
+	border-style: solid;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 1em;
+}
+
 .subtitle {
 	text-align: center
 }
 .review {
+	flex-wrap: wrap;
 	margin-left: 10px;
 	margin-right: 10px;
 	border-style: inline-block;
@@ -60,21 +72,25 @@ h3{
     color: white;
 }
 .recent {
+	display: flex;
+	flex-wrap: wrap;
 	margin-left: 0;
 	margin-right: 0;
 	border-style: inline-block;
     border: none;
-    padding-bottom: 300px;
+    padding-bottom: 50px;
     margin-bottom: 10px;
 	font-size: 20px;
     color: white;
 }
-.highlights{
+.upcoming{
+	display: flex;
+	flex-wrap: wrap;
 	margin-left: 0;
 	margin-right: 0;
 	border-style: inline-block;
     border: none;
-    padding-bottom: 300px;
+    padding-bottom: 30px;
     margin-bottom: 10px;
 	font-size: 20px;
     color: white;
@@ -179,8 +195,9 @@ h3{
     }
     section {
         border-style: inline-block;
+		flex-wrap: wrap;
         border: solid;
-        padding-bottom: 1000px;
+        padding-bottom: 10px;
         margin-left: 100px;
         margin-right: 100px;
         margin-bottom: 100px;
@@ -220,8 +237,9 @@ h3{
         }
         section {
             border-style: inline-block;
+			flex-wrap: wrap;
             border: solid;
-            padding-bottom: 1000px;
+            padding-bottom: 10px;
             margin-left: 200px;
             margin-right: 200px;
         }
