@@ -1,258 +1,242 @@
 /*GLOBAL STYLES START*/
-header {
-    padding: 10px;
-    margin-bottom: 0px;
-    text-align: center;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    font-size: 1em;
-    background-image: url(../images/landscape298.jpg);
-    background-size: 100% 100%;
-    color: white;
-    text-shadow: 2px 2px 4px #000000;
+ header {
+     padding: 10px;
+     margin-bottom: 0px;
+     text-align: center;
+     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+     font-size: 1em;
+     background-image: url(../images/landscape298.jpg);
+     background-size: 100% 100%;
+     color: white;
+     text-shadow: 2px 2px 4px #000000;
 }
-img {
-	margin-left: 10px;
-	margin-top: 10px;
-	margin-right: 10px;
-	height: 250px;
-	width: 150px;
-	float:left;
+ img {
+     margin-left: 10px;
+     margin-top: 10px;
+     margin-right: 10px;
+     height: 250px;
+     width: 150px;
+     float:left;
 }
-body {
-    margin: 0;
-    padding: 0;
-    background: #211f1e;
+ body {
+     margin: 0;
+     padding: 0;
+     background: #211f1e;
 }
-main {
-    padding: 0;
-    margin: 0;
+ main {
+     padding: 0;
+     margin: 0;
 }
 /*main body section start*/
-section {
-	margin-left: 0;
-	margin-right: 0;
-    border: solid;
-    padding-bottom: 10px;
-    margin-bottom: 100px;
+ section {
+     margin-left: 0;
+     margin-right: 0;
+     border: solid;
+     padding-bottom: 10px;
+     margin-bottom: 100px;
 }
-section {
-    font-size: 20px;
-    color: white;
+ section {
+     font-size: 20px;
+     color: white;
 }
-p{
-	margin-left: 10px;
+ p{
+     margin-left: 10px;
 }
-h3{
-	padding-left: 30px;
-	color: white;
+ h3{
+     padding-left: 30px;
+     color: white;
 }
-.display {
-	margin-left:10px;
-	margin-top: 20px;
-	float: left;
-	color: white;
-	border-style: solid;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	font-size: 1em;
+ .display {
+     margin-left:10px;
+     margin-top: 20px;
+     float: left;
+     color: white;
+     border-style: solid;
+     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+     font-size: 1em;
 }
-
-.subtitle {
-	text-align: center
+ .subtitle {
+     text-align: center 
 }
-.review {
-	flex-wrap: wrap;
-	margin-left: 10px;
-	margin-right: 10px;
-    border: none;
-    padding-bottom: 50px;
-    margin-bottom: 10px;
-	font-size: 20px;
-    color: white;
+ .review {
+     flex-wrap: wrap;
+     margin-left: 10px;
+     margin-right: 10px;
+     border: none;
+     padding-bottom: 50px;
+     margin-bottom: 10px;
+     font-size: 20px;
+     color: white;
 }
-.recent {
-	display: flex;
-	flex-wrap: wrap;
-	margin-left: 0;
-	margin-right: 0;
-	border-style: inline-block;
-    border: none;
-    padding-bottom: 50px;
-    margin-bottom: 10px;
-	font-size: 20px;
-    color: white;
+ .recent {
+     display: flex;
+     flex-wrap: wrap;
+     margin-left: 0;
+     margin-right: 0;
+     border: none;
+     padding-bottom: 50px;
+     margin-bottom: 10px;
+     font-size: 20px;
+     color: white;
 }
-.upcoming{
-	display: flex;
-	flex-wrap: wrap;
-	margin-left: 0;
-	margin-right: 0;
-    border: none;
-    padding-bottom: 30px;
-    margin-bottom: 10px;
-	font-size: 20px;
-    color: white;
-	
+ .upcoming{
+     display: flex;
+     flex-wrap: wrap;
+     margin-left: 0;
+     margin-right: 0;
+     border: none;
+     padding-bottom: 30px;
+     margin-bottom: 10px;
+     font-size: 20px;
+     color: white;
 }
 /*comment section start*/
-
-#respond {
-  margin-top: 40px;
-  border-top-style: solid;
+ #respond {
+     margin-top: 40px;
+     border-top-style: solid;
 }
 /*type declarations ensure the comment form only accepts the corresponding type input*/
-#respond input[type='text'],
-#respond input[type='email'], 
-#respond textarea {
-  margin-bottom: 10px;
-  display: inline-block;
-  width: 98%;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  line-height: 1.4em;
+ #respond input[type='text'], #respond input[type='email'], #respond textarea {
+     margin-bottom: 10px;
+     display: inline-block;
+     width: 98%;
+     border: 1px solid rgba(0, 0, 0, 0.1);
+     line-height: 1.4em;
 }
-
 /*comment section end*/
-
 /*main body section end*/
 /*dropdown menu start*/
-
-.dropbtn {
-    background-color: #B22222;
-    color: white;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    font-size: 16px;
-    padding: 15px;
-    border-radius: 20px;
-    cursor: pointer;
-    right: 5px;
+ .dropbtn {
+     background-color: #B22222;
+     color: white;
+     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+     font-size: 16px;
+     padding: 15px;
+     border-radius: 20px;
+     cursor: pointer;
+     right: 5px;
 }
-.dropbtn:hover,
-.dropbtn:focus {
-    background-color: #3e8e41;
+ .dropbtn:hover, .dropbtn:focus {
+     background-color: #3e8e41;
 }
-.dropdown {
-    float: right;
-    position: relative;
-    display: inline-block;
+ .dropdown {
+     position: relative;
+     display: inline-block;
 }
-.dropdown-content {
-    margin-top: 60px;
-    display: none;
-    background-color: #B8860B;
-    min-width: 160px;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    position: fixed;
-    right: 5px;
+ .dropdown-content {
+     margin-top: 60px;
+     display: none;
+     background-color: #B8860B;
+     min-width: 160px;
+     overflow: auto;
+     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+     z-index: 1;
+     position: fixed;
+     right: 5px;
 }
-.dropdown-content a {
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+ .dropdown-content a {
+     color: white;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
 }
-.dropdown a:hover {
-    background-color: #f1f1f1
+ .dropdown a:hover {
+     background-color: #f1f1f1 
 }
-.show {
-    display: block;
+ .show {
+     display: block;
 }
 /*dropdown list end*/
 /*GLOBAL STYLES END*/
 /*MEDIUM STYLES START*/
-
-@media screen and (min-width: 500px) {
+ @media only screen and (min-width: 500px) {
     /*FIRST BREAKPOINT (MEDIUM SIZE) */
-    
-    header {
-        padding: 40px;
-        margin-bottom: 0px;
-        text-align: center;
-        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-        font-size: 1.5em;
-        color: white;
-        text-shadow: 2px 2px 4px #000000;
+     header {
+         padding: 40px;
+         margin-bottom: 0px;
+         text-align: center;
+         font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+         font-size: 1.5em;
+         color: white;
+         text-shadow: 2px 2px 4px #000000;
     }
-    body {
-        margin: 0;
-        padding: 0;
-        background: #211f1e;
+     body {
+         margin: 0;
+         padding: 0;
+         background: #211f1e;
     }
-    .dropbtn {
-        background-color: #B22222;
-        color: white;
-        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-        font-size: 17px;
-        padding: 15px;
-        border-radius: 30px;
-        cursor: pointer;
-        position: fixed;
-        right: 5px;
+     .dropbtn {
+         background-color: #B22222;
+         color: white;
+         font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+         font-size: 17px;
+         padding: 15px;
+         border-radius: 30px;
+         cursor: pointer;
+         position: fixed;
+         right: 5px;
     }
-    section {
-		flex-wrap: wrap;
-        border: solid;
-        padding-bottom: 10px;
-        margin-left: 100px;
-        margin-right: 100px;
-        margin-bottom: 100px;
+     section {
+         flex-wrap: wrap;
+         border: solid;
+         padding-bottom: 10px;
+         margin-left: 100px;
+         margin-right: 100px;
+         margin-bottom: 100px;
     }
-    section {
-        font-size: 20px;
-        color: white;
+     section {
+         font-size: 20px;
+         color: white;
     }
-	img {
-	margin-left: 10px;
-	margin-top: 10px;
-	margin-right: 10px;
-	height: 250px;
-	width: 150px;
-	float:left;
-}
-
+     img {
+         margin-left: 10px;
+         margin-top: 10px;
+         margin-right: 10px;
+         height: 250px;
+         width: 150px;
+         float:left;
+    }
     /*MEDIUM STYLES END*/
     /*LARGE STYLES START*/
-    
-    @media screen and (min-width: 1000px) {
-        /*FIRST BREAKPOINT (MEDIUM SIZE) */
-        
-        header {
-            padding: 80px;
-            margin-bottom: 0px;
-            text-align: center;
-            font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-            font-size: 2em;
-            color: white;
-            text-shadow: 2px 2px 4px #000000;
+    /*FIRST BREAKPOINT (MEDIUM SIZE) */
+     @media only screen and (min-width: 1000px) {
+         header {
+             padding: 80px;
+             margin-bottom: 0px;
+             text-align: center;
+             font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+             font-size: 2em;
+             color: white;
+             text-shadow: 2px 2px 4px #000000;
         }
-        body {
-            margin: 0;
-            padding: 0;
-            background: #211f1e;
+         body {
+             margin: 0;
+             padding: 0;
+             background: #211f1e;
         }
-        section {
-            border-style: inline-block;
-			flex-wrap: wrap;
-            border: solid;
-            padding-bottom: 10px;
-            margin-left: 200px;
-            margin-right: 200px;
+         section {
+             flex-wrap: wrap;
+             border: solid;
+             padding-bottom: 10px;
+             margin-left: 200px;
+             margin-right: 200px;
         }
-        section {
-            font-size: 24px;
-            color: white;
+         section {
+             font-size: 24px;
+             color: white;
         }
-		img {
-			margin-left: 10px;
-			margin-top: 10px;
-			margin-right: 10px;
-			height: 350px;
-			width: 250px;
-			float:left;
-			padding-bottom: 10px;
-			}
-			.review{
-				margin-bottom: 250px
-			}
+         img {
+             margin-left: 10px;
+             margin-top: 10px;
+             margin-right: 10px;
+             height: 350px;
+             width: 250px;
+             float:left;
+             padding-bottom: 10px;
+        }
+         .review{
+             margin-bottom: 250px 
+        }
     }
     /*LARGE STYLES END*/
+    
